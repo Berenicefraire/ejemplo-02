@@ -3,4 +3,12 @@ body{
 }
 .links{
     text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.links:hover{
+    background-color: blueviolet;
+    color: white;
 }
